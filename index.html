@@ -1,5 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    body{
+      background-color: rgb(0, 0, 32);
+      color: white;
+      font-family: sans-serif;
+      align-content: center;
+      text-align: center;
+    }
+    header{
+      background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91), rgb(0, 0, 32));
+      opacity: 1;
+    }
+    .banner-content{
+      background-image: url('./assets/images/banner.png');
+      opacity:0.6;
+    }
+    p{
+      margin: 30px 300px;
+    }
+    .uppercase{
+      text-transform: uppercase;
+      color: rgb(8, 108, 238);
+    }
+    .bold{
+      font-style: bold;
+    }
+    #custom_buttom{
+      border-color: rgb(8, 108, 238);
+      border-style: double;
+      border-width: 3px;
+      color: rgb(8, 108, 238);
+      background-color: rgb(0, 0, 44);
+      padding: 15px 32px;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 20px;
+    }
+    #custom_button strong{
+      margin: 100px 50px;
+      padding: 8px 16px;
+    }
+    .module{
+      border-color: azure;
+      border-radius: 100px;
+      border-style: ridge;
+      font-family: monospace;
+      margin: 20px 300px;
+      padding: 10px;
+    }
+    #transform-world{
+      background-image: url('./assets/images/woman-code.png');
+      background-size: cover;
+      background-position: 120px;
+      height: 300px;
+      margin: 20px 0px;
+      text-align: left;
+      font-family: 'Brush Script MT', cursive;
+      font-style: oblique;
+      font-size: 30px;
+      text-transform: lowercase;
+    }
+    #transform-world p{
+      width: 200px;
+      margin: 30px 300px;
+    }
+    footer{
+      background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
+      opacity: 1;
+    }
+    footer p{
+      margin: 20px 20px;
+    }
+  </style>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +85,14 @@
       <div class="logo">
         <img src="assets/images/logo.png" title="Logotipo Trilha de CSS DIO" alt="Logotipo Trilha de CSS DIO">
       </div>
-      <h1>Trilha de CSS da DIO</h1>
+      <h1 class="uppercase" class="bold">Trilha de CSS da DIO</h1>
       <p>A nova Trilha de CSS da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais.</p>
-      <button>Quero me inscrever</button>
+      <button id="custom_buttom"><strong><h2>Quero me inscrever</h2></strong></button>
     </div>
   </header>
   <main>
     <section id="course-content">
-      <h2>O que vou aprender?</h2>
+      <h2 class="uppercase">O que vou aprender?</h2>
       <p>
         Temos 3 módulos recheados de conteúdos do básico ao avançado para que você aprenda a 
         desenvolver sites profissionais utilizando somente HTML e CSS: sem nenhuma biblioteca ou framework a mais.
@@ -40,7 +113,7 @@
       <p>TRANSFORME O MUNDO COM A GENTE</p>
     </section>
     <section id="professional-challenges">
-      <h2>Evolua e encare novos desafios profissionais</h2>
+      <h2 class="uppercase">Evolua e encare novos desafios profissionais</h2>
       <img src="assets/images/professional-challenges.png" title="Homem lendo depoimentos em um tablet" alt="Homem lendo depoimentos em um tablet">
       <p>
         Junte-se ao nosso ecossistema e transforme o mundo com a gente! Todos os dias dezenas de empresas 
@@ -52,7 +125,7 @@
   </main>
   <footer>
     <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
+    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p><br>
   </footer>
 </body>
 </html>
