@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: sans-serif;
+    align-content: center;
+    text-align: center;
+  }
+  header{
+    background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91), rgb(0, 0, 32));
+    opacity: 1;
+  }
+  .banner-content{
+    background-image: url('./assets/images/banner.png');
+    opacity:0.6;
+  }
+  a{
+    color: aqua;
+  }
+  p{
+    margin: 30px 300px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .uppercase{
+    text-transform: uppercase;
+    font-family:'Segoe UI' , sans-serif;
+    font-style: bold;
+    color: rgb(8, 108, 238);
+  }
+  .bold{
+    font-style: bold;
+  }
+  #custom_buttom{
+    border-color: rgb(8, 108, 238);
+    border-style: double;
+    border-width: 0.5rem;
+    color: rgb(96, 207, 255);
+    background-color: rgb(0, 0, 44);
+    padding: 0.05rem 8.2rem;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 20px;
+    border-radius: 1rem;
+  }
+  #custom_button strong{
+    margin: 100px 50px;
+    padding: 8px 16px;
+  }
+  .module{
+    border-color: azure;
+    border-radius: 1rem;
+    border-style: ridge;
+    font-family: monospace;
+    margin: 0.5rem 30rem;
+    padding: 0.8rem;
+  }
+  #transform-world{
+    background-image: url('./assets/images/woman-code.png');
+    background-size: cover;
+    background-position: 0.8rem;
+    height: 15rem;
+    margin: 2rem 20rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+    font-size: 3rem;
+    text-transform: lowercase;
+  }
+  #transform-world p{
+    width: 30rem;
+    margin: 0.3rem 3rem;
+  }
+  footer{
+    background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
+    opacity: 1;
+  }
+  footer p{
+    margin: 0.2rem 0.2rem;
+  }
