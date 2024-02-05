@@ -7,24 +7,26 @@ body{
     align-content: center;
     text-align: center;
     display: inline-block;
-    border-width: 0.5rem;
-    border-style: solid;
-    border-image: linear-gradient(rgb(0, 37, 158), aqua) 30;
-    border-radius: 1rem;
     margin: 5rem 20rem;
     padding: 5rem 0rem 0rem 0rem;
   }
   header{
-    background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91), rgb(0, 0, 32));
     opacity: 1;
-    border-color: rgb(8, 108, 238);
+    border-color: rgb(0, 37, 158);
     border-width: 0.3rem;
-    border-style: none none ridge none;
-    padding: 0 0 5rem 0;
+    border-radius: 1rem 1rem 0 0;
+    border-style: solid;
+    padding: 5rem 0 5rem 0;
+  }
+  main{
+    border-image: linear-gradient(rgb(0, 37, 158), aqua) 30;
+    border-width: 0.3rem;
+    border-style: solid;
+    padding: 5rem 0;
   }
   .banner-content{
     background-image: url('./assets/images/banner.png');
-    opacity:0.6;
+    opacity:0.8;
   }
   a{
     color: aqua;
@@ -38,7 +40,7 @@ body{
     font-family:'Segoe UI' , sans-serif;
     font-style: bold;
     font-size: 3rem;
-    color: rgb(9, 206, 241);
+    color: rgb(48, 55, 255);
     margin: 0rem 10rem; 
   }
   .bold{
@@ -88,7 +90,8 @@ body{
     background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
     opacity: 1;
     border-color: aqua;
-    border-style: ridge none none none;
+    border-style: solid;
+    border-radius: 0 0 1rem 1rem;
     border-width: 0.3rem;
     padding: 1rem 0 1rem 0;
   }
