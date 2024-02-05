@@ -12,27 +12,29 @@ body{
   }
   header{
     opacity: 1;
+    background-color: rgb(25, 25, 49);
     border-color: rgb(0, 37, 158);
     border-width: 0.3rem;
     border-radius: 1rem 1rem 0 0;
     border-style: solid solid none solid;
-    padding: 5rem 0 5rem 0;
   }
   main{
     border-image: linear-gradient(rgb(0, 37, 158), aqua) 30;
     border-width: 0.3rem;
     border-style: solid;
-    padding: 5rem 0;
+    background-color: rgb(25, 25, 49);
   }
   .banner-content{
+    padding: 5rem 0;
     background-image: url('./assets/images/banner.png');
+    background-repeat: no-repeat;
     opacity:0.8;
   }
   a{
     color: aqua;
   }
   p{
-    margin: 0.5rem 10rem 5rem 10rem;
+    margin: 2rem 10rem 5rem 10rem;
     font-family: 'Roboto', sans-serif;
   }
   .uppercase{
@@ -51,7 +53,7 @@ body{
     border-style: double;
     border-width: 0.5rem;
     color: rgb(96, 207, 255);
-    background-color: rgb(0, 0, 44);
+    background-color: rgb(7, 7, 51);
     padding: 0.05rem 8.2rem;
     display: inline-block;
     font-size: 2rem;
@@ -67,15 +69,17 @@ body{
     border-radius: 1rem;
     border-style: ridge;
     font-family: monospace;
+    font-size: 1.2rem;
+    font-style: bold;
     margin: 0.5rem 10rem;
     padding: 0.8rem;
   }
   #transform-world{
     background-image: url('./assets/images/woman-code.png');
     background-size: cover;
-    background-position: 0.8rem;
-    height: 15rem;
-    margin: 2rem 3rem;
+    background-position: 1.2rem;
+    height: 20rem;
+    margin: 2rem 0;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-style: oblique;
@@ -87,7 +91,7 @@ body{
     margin: 0.3rem 3rem;
   }
   footer{
-    background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
+    background-image: linear-gradient(rgb(25, 25, 49), rgb(0, 44, 91));
     opacity: 1;
     border-color: aqua;
     border-style: none solid solid solid;
