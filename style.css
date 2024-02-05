@@ -15,7 +15,7 @@ body{
     border-color: rgb(0, 37, 158);
     border-width: 0.3rem;
     border-radius: 1rem 1rem 0 0;
-    border-style: solid;
+    border-style: solid solid none solid;
     padding: 5rem 0 5rem 0;
   }
   main{
@@ -90,7 +90,7 @@ body{
     background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
     opacity: 1;
     border-color: aqua;
-    border-style: solid;
+    border-style: none solid solid solid;
     border-radius: 0 0 1rem 1rem;
     border-width: 0.3rem;
     padding: 1rem 0 1rem 0;
