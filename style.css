@@ -1,13 +1,26 @@
-body{
+html{
     background-color: rgb(0, 0, 32);
+    }
+body{
     color: white;
     font-family: sans-serif;
     align-content: center;
     text-align: center;
+    display: inline-block;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-image: linear-gradient(rgb(0, 37, 158), aqua) 30;
+    border-radius: 1rem;
+    margin: 5rem 20rem;
+    padding: 5rem 0rem 0rem 0rem;
   }
   header{
     background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91), rgb(0, 0, 32));
     opacity: 1;
+    border-color: rgb(8, 108, 238);
+    border-width: 0.3rem;
+    border-style: none none ridge none;
+    padding: 0 0 5rem 0;
   }
   .banner-content{
     background-image: url('./assets/images/banner.png');
@@ -17,14 +30,16 @@ body{
     color: aqua;
   }
   p{
-    margin: 30px 300px;
+    margin: 0.5rem 10rem 5rem 10rem;
     font-family: 'Roboto', sans-serif;
   }
   .uppercase{
     text-transform: uppercase;
     font-family:'Segoe UI' , sans-serif;
     font-style: bold;
-    color: rgb(8, 108, 238);
+    font-size: 3rem;
+    color: rgb(9, 206, 241);
+    margin: 0rem 10rem; 
   }
   .bold{
     font-style: bold;
@@ -38,19 +53,19 @@ body{
     padding: 0.05rem 8.2rem;
     display: inline-block;
     font-size: 2rem;
-    margin: 4px 20px;
+    margin: 0.4rem 5rem;
     border-radius: 1rem;
   }
   #custom_button strong{
-    margin: 100px 50px;
-    padding: 8px 16px;
+    margin: 3rem 0.5rem;
+    padding: 0.8rem 1.6rem;
   }
   .module{
     border-color: azure;
     border-radius: 1rem;
     border-style: ridge;
     font-family: monospace;
-    margin: 0.5rem 30rem;
+    margin: 0.5rem 10rem;
     padding: 0.8rem;
   }
   #transform-world{
@@ -58,7 +73,7 @@ body{
     background-size: cover;
     background-position: 0.8rem;
     height: 15rem;
-    margin: 2rem 20rem;
+    margin: 2rem 3rem;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-style: oblique;
@@ -72,6 +87,10 @@ body{
   footer{
     background-image: linear-gradient(rgb(0, 0, 32), rgb(0, 44, 91));
     opacity: 1;
+    border-color: aqua;
+    border-style: ridge none none none;
+    border-width: 0.3rem;
+    padding: 1rem 0 1rem 0;
   }
   footer p{
     margin: 0.2rem 0.2rem;
